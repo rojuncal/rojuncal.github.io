@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../../style_page_2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios en html&nbsp;</h1>
+</header>
+<nav>
+  <ul id="menu_final">
+    <li><a href="Formatos de texto.html">Formatos</a> <a href="Formatos de texto.html">de</a> <a href="Formatos de texto.html">texto</a></li>
+    <li class="cortos"><a href="listas.html">Listas</a></li>
+    <li><a href="Enlaces.html">Enlaces</a></li>
+<li><a href="Tablas.html">Tablas</a></li>
+	<li><a href="Imegnes en html.html">Imagenes</a></li>
+	<li><a href="Audio.html">Audio</a></li>
+	<li><a href="Videos.html">Videos</a></li>
+	<li><a href="Formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto molestiae cumque corrupti perspiciatis cum possimus dolor autem dolorum sed at voluptates dolores aut, minus eius esse reiciendis veniam facilis nisi.</p>
+    <form id="form1" name="form1" method="get">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+		<br><br>
+      <label for="Apellido">Apellido:</label>
+      <input type="text" name="Apellido" id="Apellido">
+		<br><br>
+      <input type="submit" name="boton1" id="boton1" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario usando select, checkbox y radiobuttom&nbsp; &nbsp;&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nihil voluptate ullam consequatur esse reiciendis enim dolorum corporis, ab voluptatem aliquid, modi dolores, mollitia voluptates eveniet officia optio consequuntur fuga!</p>
+    <form id="form2" name="form2" method="get">
+      <label for="pais">¿De qué pais nos visitas?&nbsp;</label>
+      <select name="pais" id="select">
+        <option value="MX">México</option>
+        <option value="USA">Estadoos Unidos</option>
+        <option value="ES">España</option>
+        <option value="AR">Argentina</option>
+        <option value="CO">Colombia</option>
+        <option value="IT">Italia</option>
+      </select>
+		<br><br>
+      <label>Género&nbsp;</label>
+      <p>
+        <label>
+          <input type="radio" name="Genero" value="Mujer" id="Genero_0">
+          Femenino</label>
+        <br>
+        <label>
+          <input type="radio" name="Genero" value="Hombre" id="Genero_1">
+          Masculino</label>
+        <br>
+      </p>
+      <label>¿Cuál será tu rsidencia durante tu estancia?&nbsp; &nbsp;</label>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia temporal" value="hotel" id="Residenciatemporal_0">
+            Hotel</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia temporal" value="particular" id="Residenciatemporal_1">
+            Domicilio de amigos o familia</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Residencia temporal" value="airb&b" id="Residenciatemporal_2">
+            Airb&b</label></td>
+        </tr>
+      </table>
+<br><br>
+      <input type="submit" name="submit" id="boton2" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario de contacto&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugit, soluta consequuntur sed vel, iusto, rem, iste unde nesciunt sit tempora dolorem deserunt accusamus. In fuga quis nemo, voluptatem quos!</p>
+    <form action="../../Procesamiento.html" name="form3" id="form3">
+      <label for="nombre">Nombre&nbsp;</label>
+      <input name="nombre" type="text" required="required" id="nombre" form="form3">
+      <label for="email">Email:</label>
+      <input name="email" type="email" required="required" id="email">
+      <label for="mensaje">Comentario:</label>
+      <textarea name="mensaje" rows="6" maxlength="150" required="required" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+      <input name="boton3" type="submit" id="boton3" formaction="Procesamiento.html" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario propio&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fugit, soluta consequuntur sed vel, iusto, rem, iste unde nesciunt sit tempora dolorem deserunt accusamus. In fuga quis nemo, voluptatem quos!</p>
+    <form method="post" name="form4" class="centrar" id="form4">
+<label class="preguntas">¿Cuándo conociste el kpop?&nbsp;&nbsp;</label>
+<label for="date">Fecha estimada:</label>
+<input name="date" type="date" required="required" id="date">
+	  <br><br>
+<label class="preguntas">¿Con qué generación descubriste el kpop?&nbsp;&nbsp;</label>
+<table width="200">
+  <tr>
+    <td><label>
+      <input type="radio" name="RadioGroup1" value="primera G" id="RadioGroup1_0">
+      1ra generacon</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="RadioGroup1" value="segunda G" id="RadioGroup1_1">
+      2da Generacion</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="RadioGroup1" value="tercera G" id="RadioGroup1_2">
+      3ra Generacion</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="radio" name="RadioGroup1" value="cuarta G" id="RadioGroup1_3">
+      4ta Generacion</label></td>
+  </tr>
+</table>
+<br>
+<label class="preguntas">¿Cuál es tu grupo favorito de esa generación?&nbsp;</label>
+<label for="Grupofav">&nbsp;</label>
+<textarea name="Grupofav" required="required" id="Grupofav" placeholder="Escribe tu grupo favorito aqui..."></textarea><br>
+		<br>
+<label class="preguntas">¿Qué tan fan eres del kpop en general?&nbsp;</label><br>
+<label for="range">Entre 1 a 10&nbsp;</label>
+<input type="range" name="range" id="range"><br>
+		<br>
+		<label class="preguntas">¿Qué merch de Kpop coleccionas?&nbsp;</label>
+	  <table width="200">
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Kpopmerch" value="Cds" id="Kpopmerch_0">
+		      Álbumes</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Kpopmerch" value="cartones" id="Kpopmerch_1">
+		      Photocards</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Kpopmerch" value="Palos de luz" id="Kpopmerch_2">
+		      Ligthsticks</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Kpopmerch" value="contenido audiovisual" id="Kpopmerch_3">
+		      DVD´s, Blue rays de conciertos</label></td>
+	      </tr>
+	  </table>
+		<br>
+	  <label class="preguntas">¿Cuál es tu MV favporito de tu grupo preferido?&nbsp;</label><br>
+	  <label for="url">Pon el link aquí:</label>
+      <input name="url" type="url" required="required" id="url">
+<br><br>
+	  <input name="boton4" type="submit" formaction="Procesamiento.html" value="Enviar">
+
+
+
+      
+    </form>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Rocío Juncal García&nbsp;</h6>
+</footer>
+</body>
+</html>
