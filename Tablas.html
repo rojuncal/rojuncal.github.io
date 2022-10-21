@@ -1,0 +1,373 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas</title>
+<style type="text/css">
+@import url("../../style_page_2.css");
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html&nbsp;</h1>
+</header>
+<nav> <ul id="menu_final">
+    <li><a href="Formatos de texto.html">Formatos</a> <a href="Formatos de texto.html">de</a> <a href="Formatos de texto.html">texto</a></li>
+    <li class="cortos"><a href="listas.html">Listas</a></li>
+    <li><a href="Enlaces.html">Enlaces</a></li>
+<li><a href="Tablas.html">Tablas</a></li>
+	<li><a href="Imegnes en html.html">Imagenes</a></li>
+	<li><a href="Audio.html">Audio</a></li>
+	<li><a href="Videos.html">Videos</a></li>
+	<li><a href="Formularios.html">Formularios</a></li>
+  </ul>
+	</nav>
+<main>
+  <section>
+    <h2>Tablas desde código&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid qui, omnis aspernatur assumenda vitae ut numquam amet commodi fugiat nobis mollitia eveniet, optio necessitatibus! Optio temporibus aliquam saepe iusto quas officia doloribus accusantium, cum ut omnis placeat, nobis consectetur aliquid maxime sunt eius sed, ipsam, debitis eveniet voluptas. Quaerat velit voluptate architecto iusto esse commodi sit eaque maiores pariatur, minus. Ratione numquam, quisquam fuga, quam corrupti et perspiciatis in sapiente! Quam iure, cumque doloribus ratione maiores unde quia quos laborum, itaque. Amet molestias ut ipsam quidem qui inventore, rerum, magnam at laboriosam consectetur optio dolores nam magni sapiente, libero unde.</p>
+	<table id="tabla_1">
+		<thead>
+			<tr>
+				<th>Nombre</th>
+				<th>Taller</th>
+				<th>Email</th>
+				<th>Cuota de Taller</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Kim Namjoon</td>
+				<td>Pintura</td>
+				<td>rkive@gmail.com</td>
+				<td>800</td>
+			</tr>
+			<tr>
+				<td>Kim Seokjin</td>
+				<td>Cocina</td>
+				<td>wwh@gmail.com</td>
+				<td>900</td>
+			</tr>
+			<tr>
+				<td>Kim Taehyung</td>
+				<td>Pintura</td>
+				<td>thv30@gmail.com</td>
+				<td>800</td>
+			</tr>
+			<tr>
+				<td>Jung Hoseok</td>
+				<td>Bachata</td>
+				<td>uarmyhope@gmail.com</td>
+				<td>500</td>
+			</tr>
+			<tr>
+				<td>Park Jimin</td>
+				<td>Yoga aerea</td>
+				<td>j.m13@gmail.com</td>
+				<td>700</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+			<td></td>
+			<td></td>	
+			<td>Total de Inscripción</td>
+			<td>2900</td>
+			</tr>
+		</tfoot>
+	</table>
+</section>
+  <section>
+    <h2>Tabla con estilo css y uso de rowspan&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid qui, omnis aspernatur assumenda vitae ut numquam amet commodi fugiat nobis mollitia eveniet, optio necessitatibus! Optio temporibus aliquam saepe iusto quas officia doloribus accusantium, cum ut omnis placeat, nobis consectetur aliquid maxime sunt eius sed, ipsam, debitis eveniet voluptas. Quaerat velit voluptate architecto iusto esse commodi sit eaque maiores pariatur, minus. Ratione numquam, quisquam fuga, quam corrupti et perspiciatis in sapiente! Quam iure, cumque doloribus ratione maiores unde quia quos laborum, itaque. Amet molestias ut ipsam quidem qui inventore, rerum, magnam at laboriosam consectetur optio dolores nam magni sapiente, libero unde.</p>
+    <table id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Taller</th>
+          <th>Email</th>
+          <th>Cuota de Taller</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kim Namjoon</td>
+          <td>Pintura</td>
+          <td>rkive@gmail.com</td>
+          <td>800</td>
+        </tr>
+        <tr>
+          <td>Kim Seokjin</td>
+          <td>Cocina</td>
+          <td>wwh@gmail.com</td>
+          <td>900</td>
+        </tr>
+        <tr>
+          <td>Kim Taehyung</td>
+          <td>Pintura</td>
+          <td>thv30@gmail.com</td>
+          <td>800</td>
+        </tr>
+        <tr>
+          <td>Jung Hoseok</td>
+          <td>Bachata</td>
+          <td>uarmyhope@gmail.com</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <td>Park Jimin</td>
+          <td>Yoga aerea</td>
+          <td>j.m13@gmail.com</td>
+          <td>700</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <!--<td></td>
+          <td></td>-->
+          <td colspan="3" style="background-color: #FFD851; font-wegth: bold"> Total de Inscripción</td>
+          <td>2900</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+  <section>
+    <h2>Tablas con cebras en horizontal o filas&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid qui, omnis aspernatur assumenda vitae ut numquam amet commodi fugiat nobis mollitia eveniet, optio necessitatibus! Optio temporibus aliquam saepe iusto quas officia doloribus accusantium, cum ut omnis placeat, nobis consectetur aliquid maxime sunt eius sed, ipsam, debitis eveniet voluptas. Quaerat velit voluptate architecto iusto esse commodi sit eaque maiores pariatur, minus. Ratione numquam, quisquam fuga, quam corrupti et perspiciatis in sapiente! Quam iure, cumque doloribus ratione maiores unde quia quos laborum, itaque. Amet molestias ut ipsam quidem qui inventore, rerum, magnam at laboriosam consectetur optio dolores nam magni sapiente, libero unde.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_3">
+      	<thead>
+		 <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">&nbsp;Correo Electrónico</th>
+          <th scope="col">Telefono&nbsp;</th>
+          <th scope="col">Edad&nbsp;</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+		</thead>
+		<tbody>
+        <tr>
+          <td>&nbsp;Jeon Jungkook</td>
+          <td>&nbsp;jeikei_97@gmail.com</td>
+          <td>&nbsp;1997090107</td>
+          <td>&nbsp;25</td>
+          <td>&nbsp;Boxeo</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Moon Byul Yi</td>
+          <td>&nbsp;moonstar@hotmail.com</td>
+          <td>&nbsp;1992122204</td>
+          <td>&nbsp;29</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Cheng Xiao</td>
+          <td>&nbsp;wjsn_cl@hotmail.com</td>
+          <td>&nbsp;1998071513</td>
+          <td>&nbsp;26</td>
+          <td>&nbsp;Gimnasia ritmica</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Lee Minhyuk</td>
+          <td>&nbsp;btob_ktr@hotmail.com</td>
+          <td>&nbsp;1990122906</td>
+          <td>&nbsp;31</td>
+          <td>&nbsp;Salton con altura</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section>
+<h2>Tablas con cebras en vertical o columnas&nbsp;&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid qui, omnis aspernatur assumenda vitae ut numquam amet commodi fugiat nobis mollitia eveniet, optio necessitatibus! Optio temporibus aliquam saepe iusto quas officia doloribus accusantium, cum ut omnis placeat, nobis consectetur aliquid maxime sunt eius sed, ipsam, debitis eveniet voluptas. Quaerat velit voluptate architecto iusto esse commodi sit eaque maiores pariatur, minus. Ratione numquam, quisquam fuga, quam corrupti et perspiciatis in sapiente! Quam iure, cumque doloribus ratione maiores unde quia quos laborum, itaque. Amet molestias ut ipsam quidem qui inventore, rerum, magnam at laboriosam consectetur optio dolores nam magni sapiente, libero unde.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_4">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">&nbsp;Correo Electrónico</th>
+          <th scope="col">Telefono&nbsp;</th>
+          <th scope="col">Edad&nbsp;</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Jeon Jungkook</td>
+          <td>&nbsp;jeikei_97@gmail.com</td>
+          <td>&nbsp;1997090107</td>
+          <td>&nbsp;25</td>
+          <td>&nbsp;Boxeo</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Moon Byul Yi</td>
+          <td>&nbsp;moonstar@hotmail.com</td>
+          <td>&nbsp;1992122204</td>
+          <td>&nbsp;29</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Cheng Xiao</td>
+          <td>&nbsp;wjsn_cl@hotmail.com</td>
+          <td>&nbsp;1998071513</td>
+          <td>&nbsp;26</td>
+          <td>&nbsp;Gimnasia ritmica</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Lee Minhyuk</td>
+          <td>&nbsp;btob_ktr@hotmail.com</td>
+          <td>&nbsp;1990122906</td>
+          <td>&nbsp;31</td>
+          <td>&nbsp;Salton con altura</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2>Tabla flotante (hover)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid qui, omnis aspernatur assumenda vitae ut numquam amet commodi fugiat nobis mollitia eveniet, optio necessitatibus! Optio temporibus aliquam saepe iusto quas officia doloribus accusantium, cum ut omnis placeat, nobis consectetur aliquid maxime sunt eius sed, ipsam, debitis eveniet voluptas. Quaerat velit voluptate architecto iusto esse commodi sit eaque maiores pariatur, minus. Ratione numquam, quisquam fuga, quam corrupti et perspiciatis in sapiente! Quam iure, cumque doloribus ratione maiores unde quia quos laborum, itaque. Amet molestias ut ipsam quidem qui inventore, rerum, magnam at laboriosam consectetur optio dolores nam magni sapiente, libero unde.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_5">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">&nbsp;Correo Electrónico</th>
+          <th scope="col">Telefono&nbsp;</th>
+          <th scope="col">Edad&nbsp;</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Jeon Jungkook</td>
+          <td>&nbsp;jeikei_97@gmail.com</td>
+          <td>&nbsp;1997090107</td>
+          <td>&nbsp;25</td>
+          <td>&nbsp;Boxeo</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Moon Byul Yi</td>
+          <td>&nbsp;moonstar@hotmail.com</td>
+          <td>&nbsp;1992122204</td>
+          <td>&nbsp;29</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Cheng Xiao</td>
+          <td>&nbsp;wjsn_cl@hotmail.com</td>
+          <td>&nbsp;1998071513</td>
+          <td>&nbsp;26</td>
+          <td>&nbsp;Gimnasia ritmica</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Lee Minhyuk</td>
+          <td>&nbsp;btob_ktr@hotmail.com</td>
+          <td>&nbsp;1990122906</td>
+          <td>&nbsp;31</td>
+          <td>&nbsp;Salton con altura</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section id="section_1">
+    <h2>Tabla receptiva</h2>
+    <p>&nbsp;</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique sequi, quae inventore eaque nostrum quibusdam, earum possimus delectus, animi voluptatum eligendi, autem asperiores laudantium nisi minima. Magni explicabo sint sed nihil pariatur saepe nisi in obcaecati soluta. Laboriosam, voluptatum, mollitia.</p>
+<div id="tabla_receptiva">
+  <table border="1" cellspacing="5" id="tabla_6">
+    <tbody>
+      <tr>
+        <th scope="col">&nbsp;Nombre<br>
+          <br>
+          </th>
+<th scope="col">Puntos&nbsp;</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">&nbsp;Puntos</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+        <th scope="col">Puntos&nbsp;</th>
+      </tr>
+      <tr>
+        <td>&nbsp;Hwasa</td>
+        <td>&nbsp;96</td>
+        <td>&nbsp;65</td>
+        <td>&nbsp;25</td>
+        <td>&nbsp;38</td>
+        <td>&nbsp;96</td>
+        <td>&nbsp;58</td>
+        <td>&nbsp;88</td>
+        <td>&nbsp;94</td>
+        <td>&nbsp;95</td>
+        <td>&nbsp;65</td>
+        <td>&nbsp;85</td>
+        <td>&nbsp;54</td>
+        <td>&nbsp;65</td>
+        <td>&nbsp;99</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Wheein</td>
+        <td>&nbsp;85</td>
+        <td>&nbsp;58</td>
+        <td>&nbsp;65</td>
+        <td>&nbsp;94</td>
+        <td>&nbsp;94</td>
+        <td>&nbsp;65</td>
+        <td>&nbsp;55</td>
+        <td>&nbsp;64</td>
+        <td>&nbsp;64</td>
+        <td>&nbsp;15</td>
+        <td>&nbsp;45</td>
+        <td>&nbsp;54</td>
+        <td>&nbsp;15</td>
+        <td>&nbsp;99</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Miinbyul</td>
+        <td>&nbsp;82</td>
+        <td>&nbsp;45</td>
+        <td>&nbsp;78</td>
+        <td>&nbsp;45</td>
+        <td>&nbsp;54</td>
+        <td>&nbsp;12</td>
+        <td>&nbsp;85</td>
+        <td>&nbsp;65</td>
+        <td>&nbsp;75</td>
+        <td>&nbsp;54</td>
+        <td>&nbsp;14</td>
+        <td>&nbsp;54</td>
+        <td>&nbsp;44</td>
+        <td>&nbsp;99</td>
+      </tr>
+      <tr>
+        <td>&nbsp;Solar</td>
+        <td>&nbsp;81</td>
+        <td>&nbsp;95</td>
+        <td>&nbsp;98</td>
+        <td>&nbsp;85</td>
+        <td>&nbsp;65</td>
+        <td>&nbsp;35</td>
+        <td>&nbsp;55</td>
+        <td>&nbsp;75</td>
+        <td>&nbsp;24</td>
+        <td>&nbsp;98</td>
+        <td>&nbsp;45</td>
+        <td>&nbsp;96</td>
+        <td>&nbsp;33</td>
+        <td>&nbsp;99</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Rocio Juncal García&nbsp;</h6>
+</footer>
+</body>
+</html>
